@@ -760,61 +760,6 @@ font-size: 2rem;
 
 
 
-
-/* old modal css */
-/* .modal-container {
-    position: relative;
-    background-color: rgb(121, 121, 121);
-    background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
-    color: #ffbf00;
-    margin: auto;
-    padding: 1.2rem;
-    width: 70%;
-    height: auto;
-    animation: animateModal 0.5s;
-    border-radius: 1rem;
-}
-
-
-.modal .modal-content img {
-    margin: auto 0;
-}
-
-.modal .modal-content .produk-content h3 {
-    font-size: 3.5rem;
-    color: var(--bg);
-}
-
-.modal .modal-content .produk-content h4 {
-    font-size: 1.5rem;
-    color: var(--bg);
-}
-
-.modal .modal-content .produk-content p {
-    color: var(--bg);
-    padding-bottom: 0.5rem;
-}
-
-
-
-.modal .box-container .box img {
-    width: 8rem;
-    height: 8rem;
-}
-
-
-
-
-.modal-container .button-back {
-    border-radius: 0.5rem;
-}
-
-.modal-container .button-back:hover {
-    background: var(--gradient);
-
-} */
-
-
 /* Modal Animation */
 @keyframes animateModal {
     from {
@@ -957,27 +902,8 @@ font-size: 2rem;
         text-align: center;
     }
 
-    .modal-container {
-        position: relative;
-        background-color: rgb(121, 121, 121);
-        background-image: linear-gradient(to top right, transparent 10%, #ebebeb 50%);
-        color: #ffbf00;
-        margin: auto;
-        padding: 1.2rem;
-        width: 55%;
-        height: auto;
-        animation: animateModal 0.5s;
-        border-radius: 1rem;
-    }
-
-    .modal-content {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        width: 100%;
-    }
-
+  
+   
     .modal-content img {
         flex: 1 1 20rem;
         height: auto;
@@ -993,7 +919,7 @@ font-size: 2rem;
     }
 
     .produk-content h3 {
-        padding-top: .5rem;
+        padding-top: 2rem;
         padding-bottom: 1rem;
         font-size: 2rem;
         color: var(--blue);
